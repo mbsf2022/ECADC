@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataStreamTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataSourceBundleDefinition>Giving_Campaign_Bundle</dataSourceBundleDefinition>
+    <dataSourceObject>Giving_Campaign_Donation_94A2643D</dataSourceObject>
+    <masterLabel>Giving Campaign-Donation</masterLabel>
+    <objectCategory>Salesforce_SFDCReferenceModel_0_93.Engagement</objectCategory>
+    <refreshFrequency>NONE</refreshFrequency>
+    <refreshMode>UPSERT</refreshMode>
+    <sourceObjectName>mbsummer24__Giving_Campaign_Donation_94A2643D</sourceObjectName>
+    <streamType>INGEST</streamType>
+    <templateVersion>1</templateVersion>
+</DataStreamTemplate>

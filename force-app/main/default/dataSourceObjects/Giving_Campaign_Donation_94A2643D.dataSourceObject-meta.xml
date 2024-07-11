@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSourceObject xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataSource>Giving_Campaign_cd2f5621_fcdf_4b5c_8bc8_b2b4ceb7d071</dataSource>
+    <dataSourceFields>
+        <fullName>affiliation</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>affiliation</externalName>
+        <fieldFormula>sourceField[&apos;affiliation&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_affiliation</keyQualifierName>
+        <masterLabel>affiliation</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>amount</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>amount</externalName>
+        <fieldFormula>sourceField[&apos;amount&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_amount</keyQualifierName>
+        <masterLabel>amount</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>causeId</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>causeId</externalName>
+        <fieldFormula>sourceField[&apos;causeId&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_causeId</keyQualifierName>
+        <masterLabel>causeId</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>causeName</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>causeName</externalName>
+        <fieldFormula>sourceField[&apos;causeName&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_causeName</keyQualifierName>
+        <masterLabel>causeName</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>cdp_sys_PartitionDate</fullName>
+        <datatype>F</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>cdp_sys_PartitionDate</externalName>
+        <fieldFormula>if(ISEMPTY(formulaField[&apos;mbsummer24__dateTime__c&apos;])) { null; } else { DAYPRECISION(formulaField[&apos;mbsummer24__dateTime__c&apos;]); }</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>true</isFormula>
+        <keyQualifierName>KQ_cdp_sys_PartitionDate</keyQualifierName>
+        <masterLabel>cdp_sys_PartitionDate</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber>1.0</versionNumber>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>companyMatch</fullName>
+        <datatype>B</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>companyMatch</externalName>
+        <fieldFormula>sourceField[&apos;companyMatch&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_companyMatch</keyQualifierName>
+        <masterLabel>companyMatch</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>DataSource</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>DataSource</externalName>
+        <fieldFormula>&quot;mbsummer24__Giving_Campaign_cd2f5621_fcdf_4b5c_8bc8_b2b4ceb7d071&quot;</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>true</isFormula>
+        <keyQualifierName>KQ_DataSource</keyQualifierName>
+        <masterLabel>Data Source</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>DataSourceObject</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>DataSourceObject</externalName>
+        <fieldFormula>&quot;Giving_Campaign_Donation_94A2643D&quot;</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>true</isFormula>
+        <keyQualifierName>KQ_DataSourceObject</keyQualifierName>
+        <masterLabel>Data Source Object</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>dateTime</fullName>
+        <datatype>F</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>dateTime</externalName>
+        <fieldFormula>sourceField[&apos;dateTime&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_dateTime</keyQualifierName>
+        <masterLabel>dateTime</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber>1.0</versionNumber>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>donationId</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>donationId</externalName>
+        <fieldFormula>sourceField[&apos;donationId&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_donationId</keyQualifierName>
+        <masterLabel>donationId</masterLabel>
+        <primaryIndexOrder>1</primaryIndexOrder>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>donorEmail</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>donorEmail</externalName>
+        <fieldFormula>sourceField[&apos;donorEmail&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_donorEmail</keyQualifierName>
+        <masterLabel>donorEmail</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>donorId</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>donorId</externalName>
+        <fieldFormula>sourceField[&apos;donorId&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_donorId</keyQualifierName>
+        <masterLabel>donorId</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>onBehalfOf</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>onBehalfOf</externalName>
+        <fieldFormula>sourceField[&apos;onBehalfOf&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_onBehalfOf</keyQualifierName>
+        <masterLabel>onBehalfOf</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <externalRecordIdentifier>Giving_Campaign_Donation_94A2643D</externalRecordIdentifier>
+    <masterLabel>Giving Campaign-Donation</masterLabel>
+    <objectType>Object</objectType>
+    <sourceObject>mbsummer24__Giving_Campaign_Donation_94A2643D__dll</sourceObject>
+    <templateVersion>1</templateVersion>
+</DataSourceObject>

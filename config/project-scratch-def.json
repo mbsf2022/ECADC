@@ -1,0 +1,27 @@
+{
+  "orgName": "mbhola company",
+  "edition": "Developer",
+  "description": "Scratch Org for ECA DC Cross Demo",
+  "features": [
+    "EnableSetPasswordInApi",
+    "MaxApexCodeSize:10",
+    "EinsteinGPTForDevelopers",
+    "ExternalClientApps",
+    "CustomerDataPlatform",
+    "MarketingUser"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "externalClientAppSettings": {
+      "enableExternalClientApps": true
+    },
+    "customerDataPlatformSettings": {
+      "enableCustomerDataPlatform": true
+    }
+  }
+}
